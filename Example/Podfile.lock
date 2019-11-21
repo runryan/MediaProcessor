@@ -1,0 +1,16 @@
+PODS:
+  - MediaProcessor (0.1.0)
+
+DEPENDENCIES:
+  - MediaProcessor (from `../`)
+
+EXTERNAL SOURCES:
+  MediaProcessor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MediaProcessor: 54746d3f3793a0914e5ec92c138672a99f889bf2
+
+PODFILE CHECKSUM: 24189792f6a2b6912dc8c08715e7bc5c269eb193
+
+COCOAPODS: 1.8.3

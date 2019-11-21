@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MediaProcessor'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MediaProcessor.'
+  s.summary          = '多媒体文件处理'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+功能列表：
+- 视频转mp4;
+- 获取视频第一帧画面；
+- 音频录制、播放；
                        DESC
 
-  s.homepage         = 'https://github.com/ryan/MediaProcessor'
+  s.homepage         = 'https://github.com/runryan/MediaProcessor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ryan' => 'mob_developer@163.com' }
-  s.source           = { :git => 'https://github.com/ryan/MediaProcessor.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/runryan/MediaProcessor.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MediaProcessor/Classes/**/*'
+  s.source_files = 'MediaProcessor/Classes/**/*.{h,m}'
+
   
   # s.resource_bundles = {
   #   'MediaProcessor' => ['MediaProcessor/Assets/*.png']

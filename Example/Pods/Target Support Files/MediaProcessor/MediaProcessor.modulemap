@@ -1,0 +1,6 @@
+framework module MediaProcessor {
+  umbrella header "MediaProcessor-umbrella.h"
+
+  export *
+  module * { export * }
+}

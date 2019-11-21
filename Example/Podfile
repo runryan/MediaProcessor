@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MediaProcessor_Tests' do
+  pod 'MediaProcessor', :path => '../'
+  
+  
+end

@@ -1,9 +1,11 @@
 # MediaProcessor
+音视频处理库
 
-[![CI Status](https://img.shields.io/travis/ryan/MediaProcessor.svg?style=flat)](https://travis-ci.org/ryan/MediaProcessor)
-[![Version](https://img.shields.io/cocoapods/v/MediaProcessor.svg?style=flat)](https://cocoapods.org/pods/MediaProcessor)
-[![License](https://img.shields.io/cocoapods/l/MediaProcessor.svg?style=flat)](https://cocoapods.org/pods/MediaProcessor)
-[![Platform](https://img.shields.io/cocoapods/p/MediaProcessor.svg?style=flat)](https://cocoapods.org/pods/MediaProcessor)
+# 功能列表
+  * mov视频转mp4；
+  * 获取视频的第一帧图像，作为视频的封面；
+  * [音频录制](https://github.com/runryan/AudioRecorder);
+  * [WAV、AMR音频格式相互转换](https://github.com/runryan/VoiceConverter)
 
 ## Example
 
